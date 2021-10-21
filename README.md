@@ -11,7 +11,7 @@ Starter Template for a React Typescript App that will be used within Dynamics 36
 
 5. Update common\ADALConfig_V2.ts with infotmation from app registration
 
-`
+<pre><code>
 // Msal Configurations
 const config: Configuration = {
     auth: {
@@ -31,4 +31,4 @@ const authenticationParameters = {
         **'https://d665tnant.crm.dynamics.com/user_impersonation'** //replace tenant name
     ]
 }
-`
+</code></pre>
