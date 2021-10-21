@@ -32,3 +32,11 @@ const authenticationParameters = {
     ]
 }
 </code></pre>
+
+6. Run npm build and map the output files as web resources as follows:
+
+build\index.html > rr_/reactappfolder/index.html
+build\css\main.css > rr_/reactappfolder/css/main.css
+build\js\main.js > rr_/reactappfolder/js/main.js
+
+7. Use custom parameters when adding the web resource to have the react app start at different components
