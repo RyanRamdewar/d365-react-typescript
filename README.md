@@ -16,8 +16,8 @@ Starter Template for a React Typescript App that will be used within Dynamics 36
 const config: Configuration = {
     auth: {
 
-        authority: **'https://login.microsoftonline.com/8c138b27-61c9-4e8e-ac61-57836e614c8b'**,//replace tenant guid
-        clientId: **'9624975f-6db7-4791-b46c-b70894f1c75b'**, // app registration clientid
+        authority: 'https://login.microsoftonline.com/8c138b27-61c9-4e8e-ac61-57836e614c8b',//replace tenant guid
+        clientId: '9624975f-6db7-4791-b46c-b70894f1c75b', // app registration clientid
         redirectUri: 'http://localhost:3000/',
     },
     cache: {
@@ -28,7 +28,7 @@ const config: Configuration = {
 
 const authenticationParameters = {
     scopes: [
-        **'https://d665tnant.crm.dynamics.com/user_impersonation'** //replace tenant name
+        'https://d665tnant.crm.dynamics.com/user_impersonation' //replace tenant name
     ]
 }
 </code></pre>
